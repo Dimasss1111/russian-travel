@@ -1,6 +1,7 @@
 .cover{
   max-width: 1280px;
-  margin:92px 48px;
+  margin: 92px auto;
+  padding: 320px 0;
   background-image: url(../../images/__background.png);
   background-size: cover;
   background-position: center;
@@ -9,45 +10,43 @@
 }
 
 .cover::before{
-  position: absolute;
+  content:'';
+  
   background-color: #2A2C2F;
-  opacity:0.3;
-  top:0;
-  left: 0;
+  opacity: .3;
+  position: absolute;
+  top: 0;
   bottom: 0;
+  left: 0;
   right: 0;
-
 }
 .cover:hover::before{
-  opacity: 0.8;
-  cursor: pointer;
+  opacity: .8;
 }
 
-@media screen and (min-width:1281px){
+@media screen and (min-width: 1281px){
   .cover{
-    margin-left: auto;
-    margin-right: auto;
+    margin: 92px auto;
   }
 }
 
-@media screen and (max-width:1024px){
+@media screen and (max-width: 1024px){
   .cover{
-    margin-left: 0;
-    margin-right: 0;
+    margin: 92px 0;
     padding: 195px 0;
   }
 }
 
 @media screen and (max-width: 768px){
   .cover{
-    margin:90px 0 88px;
+    margin: 90px 0;
     padding: 115px 0;
   }
 }
 
-@media screen and (max-width:414px){
+@media screen and (max-width: 414px){
   .cover{
-    margin:66px 0 64px;
+    margin: 66px 0;
     padding: 33px 0;
   }
 }

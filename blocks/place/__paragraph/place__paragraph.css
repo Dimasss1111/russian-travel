@@ -5,17 +5,17 @@
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 163%;
+  line-height: 1.63;
   color: white;
   max-width: 484px;
 }
 
 .place__paragraph:first-child{
-  grid-area: paragraph-1;
+  grid-area: paragraph_main;
 }
 
 .place__paragraph:nth-child(2){
-  grid-area: paragraph-2; 
+  grid-area: paragraph_add; 
 }
 
 @media screen and (max-width: 1024px) {

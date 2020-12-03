@@ -1,23 +1,20 @@
-/*.cover__header{
-  z-index: 2;
-  margin: 0 auto;
-  max-width: 560px;
-  min-height: 152px;
+.cover__header{
   font-family: Inter;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
   line-height: 1.06;
   text-align: center;
-  color: white;
-}*/
-.cover__header{
-  font-weight: 900;
-  font-size: 72px;
-  line-height: 1.06;
-  text-align: center;
-  color: #FFFFFF;
-  margin:auto;
   max-width: 560px;
+  margin: 0 auto 32px;
   position: relative;
+  color: white;
+}
+
+@media screen and (max-width: 767px) {
+  .cover__header{
+    margin: 0 auto 16px;
+    font-size: 32px;
+    line-height: 35px;
+  }
 }
