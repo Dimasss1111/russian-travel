@@ -1,0 +1,34 @@
+.intro__text{
+  margin: 0;
+  font-family: Inter;
+  margin-left: 148px;
+  margin-top: 40px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.63;
+  color: white;
+  display: grid;
+  grid-template-columns: fit-content(690px);
+}
+
+@media screen and (max-width: 1024px) {
+  .intro__text{
+    margin-left: 48px;
+    grid-template-columns: fit-content(690px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__text{
+    margin-left: 24px;
+    grid-template-columns: fit-content(720px);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__text{
+    margin-left: 16px;
+    grid-template-columns: fit-content(288px);
+  }
+}

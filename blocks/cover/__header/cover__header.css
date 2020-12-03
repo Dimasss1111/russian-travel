@@ -1,0 +1,23 @@
+/*.cover__header{
+  z-index: 2;
+  margin: 0 auto;
+  max-width: 560px;
+  min-height: 152px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 1.06;
+  text-align: center;
+  color: white;
+}*/
+.cover__header{
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 1.06;
+  text-align: center;
+  color: #FFFFFF;
+  margin:auto;
+  max-width: 560px;
+  position: relative;
+}
