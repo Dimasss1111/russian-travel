@@ -1,17 +1,18 @@
 .cover{
-  max-width: 1280px;
-  margin: 92px auto;
-  padding: 320px 0;
+  position: relative;
+  max-width: 1184px;
+  max-height: 740px;
+  box-sizing: border-box;
+  margin: 0 48px 92px;
   background-image: url(../../images/__background.png);
   background-size: cover;
   background-position: center;
-  position: relative;
+  padding: 245px 48px;
   transition: opacity linear;
 }
 
 .cover::before{
   content:'';
-  
   background-color: #2A2C2F;
   opacity: .3;
   position: absolute;
@@ -26,14 +27,14 @@
 
 @media screen and (min-width: 1281px){
   .cover{
-    margin: 92px auto;
+    margin: 0 auto 92px;
   }
 }
 
 @media screen and (max-width: 1024px){
   .cover{
-    margin: 92px 0;
     padding: 195px 0;
+    margin: 92px 0;
   }
 }
 
@@ -44,9 +45,9 @@
   }
 }
 
-@media screen and (max-width: 414px){
+@media screen and (max-width: 450px){
   .cover{
-    margin: 66px 0;
+    margin: 34px 0;
     padding: 33px 0;
   }
 }

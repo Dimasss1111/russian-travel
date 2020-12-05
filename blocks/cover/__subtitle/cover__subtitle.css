@@ -3,8 +3,10 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 1.22;
+  /*в макете интерлиньяж задан 22px, поэтому там высота всего блока cover на 3px больше,
+  но в рекомендациях было использовать десятичные значения*/
   text-align: center;
-  margin: 38px auto 0;
+  margin: 32px auto 0;
   max-width: 380px;
   position: relative;
   color: white;
@@ -16,7 +18,7 @@
   }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 450px){
   .cover__subtitle{
     font-size: 14px;
     line-height: 1.14;

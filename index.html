@@ -8,10 +8,10 @@
 	<link rel="stylesheet" href="./pages/index.css" />
 </head>
 
-<body class="page container">
+<body class="page">
 	<header class="header">
 		<img class="header__logo" src="./images/__logo__header.png" alt="Россия">
-		<div>
+		<div class="header__links">
 			<a class="header__lang-link header__lang-link_lang_ru" href="#" target="_self">RU</a>
 			<a class="header__lang-link header__lang-link_lang_en" href="#" target="_self">EN</a>
 		</div>
@@ -65,7 +65,7 @@
 					<a class="website__link" href="#" target="_blank">park-kosa.ru</a>
 				</div>
 				<img class="place__image" src="./images/place-1.png" alt="Куршская коса">
-				<div>
+				<div class="place__paragraphs">
 					<p class="place__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта
 						— спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой.
 						Уникальная природная зона на краю российского анклава.</p>
@@ -83,7 +83,7 @@
 					<a class="website__link" href="#" target="_blank">National Geographic</a>
 				</div>
 				<img class="place__image" src="./images/place-2.png" alt="Кольский">
-				<div>
+				<div class="place__paragraphs">
 					<p class="place__paragraph">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от
 						которой на юг —
 						тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.</p>
@@ -103,7 +103,7 @@
 					<a class="website__link" href="#" target="_blank">Facebook</a>
 				</div>
 				<img class="place__image" src="./images/place-3.png" alt="Алтай">
-				<div>
+				<div class="place__paragraphs">
 					<p class="place__paragraph">Алтай — одно из красивейших мест в России.
 						В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами, горные реки
 						и озёра. А если вы откроете в автомобиле окна, сможете познакомиться с невидимым чудом здешних мест —
@@ -121,7 +121,7 @@
 					<a class="website__link" href="#" target="_blank">https://vk.com/baikalmile</a>
 				</div>
 				<img class="place__image" src="./images/place-4.png" alt="Зимний Байкал">
-				<div>
+				<div class="place__paragraphs">
 					<p class="place__paragraph">Всем известен Байкал как крупнейшее озеро
 						в мире. Многие также знают, что это самый большой источник пресной воды и одно из красивейших мест в
 						России.</p>
@@ -139,7 +139,7 @@
 					<a class="website__link" href="#" target="_blank">http://vodlozero.ru/</a>
 				</div>
 				<img class="place__image" src="./images/place-5.png" alt="Карелия">
-				<div>
+				<div class="place__paragraphs">
 					<p class="place__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская
 						лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских
 						национальных парков из-за непроходимых болот никогда не знали топора. Некоторым соснам уже больше чем
@@ -151,20 +151,19 @@
 		</section>
 
 		<section class="cover">
-			<h2 class="cover__header">До Байкала «на собаках»</h2>
-			<p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
-				электричках.</p>
-			<img class="cover__overlay" src="./images/__overlay.png" alt="Поезда">
+      <h2 class="cover__header">До Байкала «на собаках»</h2>
+      <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
+        электричках.</p>
 		</section>
 	</main>
 
 	<footer class="footer">
 		<ul class="footer__list">
-			<li><a class="footer__link" href="#" target="_blank">Карты</a></li>
-			<li><a class="footer__link" href="#" target="_blank">Погода</a></li>
-			<li><a class="footer__link" href="#" target="_blank">Расписание</a></li>
-			<li><a class="footer__link" href="#" target="_blank">Календарь</a></li>
-			<li><a class="footer__link" href="#" target="_blank">Путешествия</a></li>
+			<li class="footer__li"><a class="footer__link" href="#" target="_blank">Карты</a></li>
+			<li class="footer__li"><a class="footer__link" href="#" target="_blank">Погода</a></li>
+			<li class="footer__li"><a class="footer__link" href="#" target="_blank">Расписание</a></li>
+			<li class="footer__li"><a class="footer__link" href="#" target="_blank">Календарь</a></li>
+			<li class="footer__li"><a class="footer__link" href="#" target="_blank">Путешествия</a></li>
 		</ul>
 		<p class="footer__copyright">© 2020. Кузнецов Дмитрий</p>
 	</footer>
