@@ -14,7 +14,7 @@
   grid-area: paragraph_main;
 }
 
-.place__paragraph:nth-child(2){
+.place__paragraph:nth-child(2n){
   grid-area: paragraph_add;
   margin-bottom: 0; 
 }

@@ -1,6 +1,10 @@
 .places{
   max-width: 984px;
   margin: 0 auto;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(5, min-content);
+  row-gap: 80px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -12,11 +16,13 @@
 @media screen and (max-width: 768px) {
   .places{
     max-width: 720px;
+    row-gap: 73px;
   }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 450px) {
   .places{
     max-width: 320px;
+    row-gap: 49px;
   }
 }

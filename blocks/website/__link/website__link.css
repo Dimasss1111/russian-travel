@@ -9,4 +9,5 @@
 
 .website__link:hover{
   opacity: .8;
+  cursor: pointer;
 }

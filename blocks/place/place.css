@@ -2,17 +2,13 @@
   max-width: 100%;
   display: grid;
   grid-template-columns: 460px 484px;
+  grid-template-rows: repeat(2, min-content);
   column-gap: 40px;
-  margin-bottom: 80px;
   row-gap: 48px;
   grid-template-areas:
   "title website"
   "image paragraph_main"
   "image .";
-}
-
-.place:last-child{
-  margin-bottom: 92px;
 }
 
 @media screen and (max-width: 1024px){
@@ -33,7 +29,6 @@
   .place{
     grid-template-columns: 340px 352px;
     column-gap: 28px;
-    margin-bottom: 73px;
   }
 }
 
@@ -48,10 +43,6 @@
     "image"
     "paragraph_main"
     "paragraph_add";
-    margin-bottom: 17px;
-  }
-  .place:last-child{
-    margin-bottom: 34px;
   }
 }
 
