@@ -1,6 +1,11 @@
 .footer__li{
   margin: 0;
+  margin-right: 18px;
   text-align: left;
+}
+
+.footer__li:last-child{
+  margin: 0;
 }
 
 @media screen and (max-width: 450px){
@@ -9,7 +14,5 @@
     padding: 0;
   }
 
-  .footer__li:last-child{
-    margin: 0;
-  }
+
 }
