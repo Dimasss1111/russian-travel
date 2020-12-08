@@ -4,13 +4,12 @@
   list-style: none;
   display: flex;
   flex-direction: row;
-  width: 77px;
   justify-content: space-between;
   align-items: flex-end;
 }
 
 @media screen and (max-width: 450px){
   .header__links{
-    width: 62px;
+
   }
 }
